@@ -4,7 +4,7 @@ import CounterApp from './counterApp'
 function App() {
 
   return (
-    <CounterApp />
+    <CounterApp value={100} counter={10}/>
   )
 }
 
